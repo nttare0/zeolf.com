@@ -1,0 +1,15 @@
+{
+  "name": "clonesite-wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper package.json to redirect commands to the CloneSite directory",
+  "scripts": {
+    "dev": "cd CloneSite && npm run dev",
+    "build": "cd CloneSite && npm run build",
+    "start": "cd CloneSite && npm run start",
+    "check": "cd CloneSite && npm run check",
+    "db:push": "cd CloneSite && npm run db:push",
+    "install": "cd CloneSite && npm install"
+  },
+  "private": true,
+  "readme": "This is a wrapper package.json that redirects commands to the CloneSite directory. Run npm commands from this directory and they will be executed in the CloneSite directory."
+}
