@@ -40,3 +40,4 @@ sessions.sqlite
 
 # Exclude the CloneSite directory (we're only pushing the wrapper)
 CloneSite/
+.env
